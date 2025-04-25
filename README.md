@@ -23,6 +23,14 @@ The system uses the [Book Recommendation Dataset](https://www.kaggle.com/dataset
      - ![img](repo_src/cf-output-preview.png)
      - Example: For a user who rated books, the system recommends other books that similar users liked.
 
+### Evaluation Results
+![evaluation-result](repo_src/evaluation-results.png)
+- RMSE: The Train RMSE and Val RMSE show a small difference, indicating the model is not overfitting.
+- MAE: The Train MAE  and Val MAE  are also consistent, suggesting the model generalizes well.
+
+Overall, training result is good because the training and testing metrics are close to each other, 
+indicating that the model is not overfitting and can generalize well to unseen data.
+
 ## Dataset
 
 - **Books**: 271,379 entries
