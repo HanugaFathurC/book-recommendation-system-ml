@@ -24,7 +24,7 @@ The system uses the [Book Recommendation Dataset](https://www.kaggle.com/dataset
      - Example: For a user who rated books, the system recommends other books that similar users liked.
 
 ### Evaluation Results
-![evaluation-result](repo_src/evaluation-results.png)
+![evaluation-result](repo_src/evaluation-results-cf.png)
 - RMSE: The Train RMSE and Val RMSE show a small difference, indicating the model is not overfitting.
 - MAE: The Train MAE  and Val MAE  are also consistent, suggesting the model generalizes well.
 
